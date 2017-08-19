@@ -74,11 +74,11 @@ public class BadgeUtil {
             View target = (View) badge;
             if (target.getWidth() == 0 || target.getHeight() == 0) {
                 return;
-                //如果获取不到宽度和高度就不执行绘图流程
+                //don't draw if view is not ready.
             }
 
             if (badge.getNumber() <= 0) {
-                //如果小于0就不画
+                //draw nothing if number is zero.
                 return;
             }
 
