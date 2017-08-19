@@ -10,7 +10,7 @@ import com.leobai.library.utils.BadgeUtil;
 import java.util.List;
 
 /**
- * 支持Badge的RadioButton
+ * Custom FrameLayout that supports Badge.
  * Created by LeoMrBai on 2017/7/27.
  */
 
