@@ -25,13 +25,40 @@ This util helps you to integrate badges conveniently,by `creating new custom vie
 >>    ...
 >>    ...
 >>}
-
+>>
+>>
 >>public class BadgeLinearLayout extends LinearLayout implements BadgeUtil.Badge {
 >>    ...
 >>    ...
 >>}
 
 > and no code inside needs any modification.Easy raight?
+
+## Something Special
+All above what we've talked about goes well on normal conditon.But there is one more complex condition you should deal with if you need.<br>
+`What if I want to add badges to List or Grid?`
+You definetely can't call Badge.update(number) for a item view in List,Right?Because it will be reused after moment.<br>
+So you need a unified management.Like this:<br>
+> ```Java
+> public class BadgeGridAdapter extends RecyclerView.Adapter<ViewHolder> implements BadgeUtil.UpdateAble{
+>     //store your badges to a list on ViewHolder's instantiation.
+>     List<Badges> badges = new ArrayList<>();
+>
+>     //override method `void updateBadge(List<BadgeNumber> badgeNumbers)`
+>     public void updateBadge(List<BadgeNumber> badgeNumbers){
+>         //update your badges by ids.
+>         ...
+>         ...
+>     }
+>
+>     public void onBindViewHolder(ViewHolder holder,int position){
+>         //update your badge's unique id.
+>         holder.badge.setId("your unique id,you may store it in Java bean object.");
+>         ...
+>     }
+>}
+  <br>
+Also there is other solutions.For Example,you could store your badge number in your Java bean object and update your badge when onBindViewHolder is called.In that case you need to update your java been objects to update your badges.
 
 Reprint requests the document to retain the author information!Thanks.
 ---
