@@ -21,13 +21,21 @@ This util helps you to integrate badges conveniently,by `creating new custom vie
 > 1) Make a new Copy of these two files.For view like ImageView make a copy of BadgeRaddioButton,and for ViewGroup like LinearLayout make a copy of BadgeFrameLayout
 > 2) Change its super class to your target class.For example:
 >> ```Java
->>public class BadgeRadioButton extends ImageView implements BadgeUtil.Badge {
+>>public class BadgeImageView extends ImageView implements BadgeUtil.Badge {
+>>    ...
+>>    ...
+>>}
+
+>>public class BadgeLinearLayout extends LinearLayout implements BadgeUtil.Badge {
 >>    ...
 >>    ...
 >>}
 
 > and no code inside needs any modification.Easy raight?
 
+## Notice
+Reprint requests the document to retain the author information!Thanks.
+---
 
 ## Preview
 ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/GIF_20170820_111700.gif)
