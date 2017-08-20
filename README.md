@@ -44,7 +44,7 @@ So you need a unified management.Like this:<br>
 >     //store your badges to a list on ViewHolder's instantiation.
 >     List<Badges> badges = new ArrayList<>();
 >
->     //override method `void updateBadge(List<BadgeNumber> badgeNumbers)`
+>     //override method void updateBadge(List<BadgeNumber> badgeNumbers)
 >     public void updateBadge(List<BadgeNumber> badgeNumbers){
 >         //update your badges by ids.
 >         ...
