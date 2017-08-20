@@ -12,10 +12,7 @@ This util helps you to integrate badges conveniently,by `creating new custom vie
 * Easy for more extension.
 
 ## Preview
-            ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102033.png)    
-            ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102044.png)
-            ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102055.png)
-            ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102125.png)
+![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102033.png) ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102044.png) ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102055.png) ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102125.png)
   
 ## Usage
 
