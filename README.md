@@ -65,7 +65,7 @@ Reprint requests the document to retain the author information!Thanks.
 <br>
 
 ## Preview
-It may take a while to load gif Image.
+It may take a while to load gif Image.<br>
 ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/GIF_20170820_111700.gif)
 ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102033.png)
 ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102125.png)
