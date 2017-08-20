@@ -26,7 +26,6 @@ public class BadgeRadioButton extends ImageView implements BadgeUtil.Badge {
     ...
 }
 
-```
 > and no code inside needs any modification.Easy raight?
 
 
