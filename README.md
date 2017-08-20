@@ -36,6 +36,7 @@ This util helps you to integrate badges conveniently,by `creating new custom vie
 Reprint requests the document to retain the author information!Thanks.
 ---
 <br>
+
 ## Preview
 It may take a while to load gif Image.
 ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/GIF_20170820_111700.gif)
