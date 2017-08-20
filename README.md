@@ -9,6 +9,14 @@ This util helps you to integrate badges conveniently,by `creating new custom vie
 * It's easy to custom a new view.When you need to custom a new view,you just need to make a new copy of Demo file and change its super class to the view kind you want.Because it does not destroy any feature of your super class and it has nothing to do with its super class.
 * It's easy to manage updating.With `Notifier` class you can pakage your badge data and let your `Notifer` deal with it.
 * It supports all kinds of view.For example,RaddioButton,FrameLayout,LinearLayout,etc.And it support RecyclerView good.
+* Easy for more extension.
 
 ## Preview
-  ![Preview]()
+  ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102033.png)
+  ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102044.png)
+  ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102055.png)
+  ![Preview](https://github.com/wjdforever/BadgeUtil/blob/master/preview/Screenshot_20170820-102125.png)
+  
+## Usage
+
+
