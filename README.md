@@ -17,9 +17,9 @@ This util helps you to integrate badges conveniently,by `creating new custom vie
 * 3.Override abstract methods in BadgeUtil.Badge interface.Create an BadgeDrawer object inside view class,and call badgeDrawer.draw(Canvas) method.For View you should call it in onDraw(Canvas) method.For ViewGroup you should call it in dispatchDraw(Canvas) method.
 * 4.Replace your Target view type with your new customed View in your layout xml.
 * 5.Call update(int number) method to update your Badge.Or if you need unified management,to do that you should instant a Notifier object and register your Badges to it,set your badge an unique id.After that you can update all badges by notifier.Or there is a lot of ways to do it.
-* 6.By now your extension is finished.Infact I have already done this for you.There are two classes in view package,BadgeRaddioButton and BadgeFrameLayout.If you wanna create a new Badge Custom View of your own,What you need to do is : 
+* 6.By now your extension is finished.`Infact I have already done this for you`.There are two classes in view package,`BadgeRaddioButton` and `BadgeFrameLayout`.If you wanna create a new Badge Custom View of your own,What you need to do is : 
 > 1) Make a new Copy of these two files.For view like ImageView make a copy of BadgeRaddioButton,and for ViewGroup like LinearLayout make a copy of BadgeFrameLayout
-> 2) Change its super class to your target class.For example:
+> 2) Change its `super class` to your target class.For example:
 >> ```Java
 >>public class BadgeImageView extends ImageView implements BadgeUtil.Badge {
 >>    ...
@@ -32,7 +32,7 @@ This util helps you to integrate badges conveniently,by `creating new custom vie
 >>    ...
 >>}
 
-> and no code inside needs any modification.Easy raight?
+> and `no code inside needs any modification`.Easy raight?
 
 ## Something Special
 All above what we've talked about goes well on normal conditon.But there is one more complex condition you should deal with if you need.<br>
@@ -58,7 +58,7 @@ So you need a unified management.Like this:<br>
 >     }
 >}
   <br>
-Also there is other solutions.For Example,you could store your badge number in your Java bean object and update your badge when onBindViewHolder is called.In that case you need to update your java been objects to update your badges.
+Also there are other solutions.For Example,you could store your badge number in your Java bean object and update your badge when onBindViewHolder is called.In that case you need to update your java been objects to update your badges.
 
 Reprint requests the document to retain the author information!Thanks.
 ---
